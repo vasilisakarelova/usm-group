@@ -3,10 +3,9 @@
 <div class="flex-1 antialiased appearance-none bg-[#F5F5F5]">
     <?= snippet('site/nav') ?>
     <div class="relative block text-center pt-[80px] lg:pt-[120px]" x-data="{itemsShown: [], titleShown: false}">
-        <div class='page-title' x-intersect="titleShown = true">
-            <h1 class="font-ABCGravityExpanded uppercase text-[26px] leading-[23.4px] md:text-[40px] md:leading-[36px] lg:text-[64px] lg:leading-[57px] transition-transform will-change-transform translate-y-[120%] duration-1000"
+        <div class='page-title'>
+            <h1 class="font-ABCGravityExpanded uppercase text-[26px] leading-[23.4px] md:text-[40px] md:leading-[36px] lg:text-[64px] lg:leading-[57px] transition-transform will-change-transform duration-1000"
                 :class="{ 'translateZ': titleShown }"
-                x-show="itemsShown"
             ><?= $page->title() ?>
             </h1>
         </div>

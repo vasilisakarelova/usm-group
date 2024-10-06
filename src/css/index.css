@@ -44,8 +44,6 @@
   display: block;
   text-align: center;
   position: relative;
-  --at-line-index: 0;
-  clip-path: polygon(0 0,100% 0,100% 120%,0 120%);
 }
 
 .page-title h1 {
