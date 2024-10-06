@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'ABCGravity Expanded';
+  src: url('../fonts/ABCGravityCyrillic-Expanded.woff') format('woff');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCGravity Condensed';
+  src: url('../fonts/ABCGravityCyrillic-Condensed.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

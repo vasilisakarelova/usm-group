@@ -1,0 +1,43 @@
+Form-entries: 
+
+----
+
+Form-fields: [{"attrs":[],"columns":[{"blocks":[{"content":{"name":"task","label":"\u0417\u0430\u0434\u0430\u0447\u0430","required":"false","default":"","placeholder":"","pattern":""},"id":"deace015-0cb7-40c3-ad94-687ebc0ad2af","isHidden":false,"type":"form-field-textarea"}],"id":"b7e3c5e3-4fd2-4ac9-81e1-84cdc35c3bb6","width":"1\/2"},{"blocks":[{"content":{"name":"name","label":"\u0418\u043c\u044f","required":"false","min_length":null,"max_length":null,"default":"","placeholder":"","pattern":""},"id":"855ca5ce-92ef-4c99-8884-c6767850d8f4","isHidden":false,"type":"form-field-text"},{"content":{"name":"company","label":"\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f","required":"false","min_length":null,"max_length":null,"default":"","placeholder":"","pattern":""},"id":"6cc14a5c-4c5d-4524-8903-d62e775f84f2","isHidden":false,"type":"form-field-text"},{"content":{"name":"email","label":"\u041f\u043e\u0447\u0442\u0430","required":"true","validators":"[\"email\"]","default":"","placeholder":"","pattern":""},"id":"e15b5b28-92ec-4564-9cd6-8da8194d558b","isHidden":false,"type":"form-field-email"},{"content":{"name":"phone","label":"\u0422\u0435\u043b\u0435\u0444\u043e\u043d","required":"false","default":"","placeholder":"","pattern":""},"id":"5080a3b1-e923-4218-8133-23ab9b8d1302","isHidden":false,"type":"form-field-tel"}],"id":"1c6bc9b9-0e3e-485b-9d3e-709011f68ed1","width":"1\/2"}],"id":"1b18ffa9-1eb1-4d54-81e3-74be43bd709d"}]
+
+----
+
+Form-success-type: false
+
+----
+
+Form-success-message: <p>удача!</p>
+
+----
+
+Form-success-page: 
+
+----
+
+Form-submit-label: Оставить заявку
+
+----
+
+Form-fields-error-message: <p>ошибка</p>
+
+----
+
+Placeholdertype: image
+
+----
+
+Placeholderimage:
+
+- db77bec453a8b02153b32dfc518c1e58.gif
+
+----
+
+Placeholdergif: 
+
+----
+
+Placeholderthanks: - db77bec453a8b02153b32dfc518c1e58.gif

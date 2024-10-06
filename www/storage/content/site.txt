@@ -1,0 +1,63 @@
+Title: USM Group
+
+----
+
+Menu:
+
+- home
+- about
+- portfolio
+- services
+- news
+
+----
+
+Phone: +7 (989) 048-62-79
+
+----
+
+Email: Info@usm-gr.com
+
+----
+
+Socialslist: [{"content":{"blocks":"[{\"content\":{\"name\":\"youtube\",\"url\":\"https:\\\/\\\/www.youtube.com\"},\"id\":\"c4484052-469b-4a03-be7b-814cf85099ac\",\"isHidden\":false,\"type\":\"socialsItem\"},{\"content\":{\"name\":\"ig\",\"url\":\"https:\\\/\\\/www.instagram.com\\\/usm.group?igsh=MWJyajdlajY2dHhtOQ%3D%3D&utm_source=qr\"},\"id\":\"e4f012f7-71d1-4c5b-9d1b-9a0905afe9ab\",\"isHidden\":false,\"type\":\"socialsItem\"},{\"content\":{\"name\":\"\\u0412\\u041a\",\"url\":\"https:\\\/\\\/vk.com\\\/usmgr\"},\"id\":\"72e20fdf-022e-4593-aca7-67286d4c41ba\",\"isHidden\":false,\"type\":\"socialsItem\"},{\"content\":{\"name\":\"\\u0432\\u043a \\u0432\\u0438\\u0434\\u0435\\u043e\",\"url\":\"\"},\"id\":\"04b4a5f0-bf91-4668-b03a-f32528923582\",\"isHidden\":false,\"type\":\"socialsItem\"},{\"content\":{\"name\":\"tg\",\"url\":\"https:\\\/\\\/web.telegram.org\"},\"id\":\"b774a24b-3451-4240-9b58-c20fc1faf1b1\",\"isHidden\":false,\"type\":\"socialsItem\"}]"},"id":"a72ebeb2-c055-46ae-9df6-a413b4216866","isHidden":false,"type":"socials"}]
+
+----
+
+Address: г. Москва, ул. Образцова 7, стр. 1
+
+----
+
+Footer: [{"content":{"text":"\u041f\u043e \u043e\u0431\u0449\u0438\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c (email: hr@usm-gr.com text: hr@usm-gr.com)"},"id":"a2c2ba70-a15e-42d9-af8c-20182ed5b618","isHidden":false,"type":"text"},{"content":{"text":"\u0414\u043b\u044f \u0441\u043e\u0438\u0441\u043a\u0430\u0442\u0435\u043b\u0435\u0439 (email: Info@usm-gr.com text: Info@usm-gr.com) \u0422\u0435\u043b\u0435\u0444\u043e\u043d (link: tel:+7 (499) 777-77-77 text: +7 (499) 777-77-77)"},"id":"1b2a13e5-ab7b-4153-bdd5-790bb4b16be5","isHidden":false,"type":"text"},{"content":{"text":"\u0410\u0434\u0440\u0435\u0441 (link: https:\/\/yandex.ru\/maps\/-\/CDsenRJd text: \u0433. \u041c\u043e\u0441\u043a\u0432\u0430,\n\u0443\u043b. \u041e\u0431\u0440\u0430\u0437\u0446\u043e\u0432\u0430 7, \u0441\u0442\u0440. 1)"},"id":"aecf3882-c0f4-4526-8f39-2f4602664e43","isHidden":false,"type":"text"}]
+
+----
+
+Scrips-head: 
+
+----
+
+Scrips-footer: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-title: 
+
+----
+
+Og-type: 
+
+----
+
+Og-description: 

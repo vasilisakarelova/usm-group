@@ -1,0 +1,23 @@
+title: О нас
+preset: page
+pages: false
+
+fields:
+  moto:
+    label: Слоган
+    type: textarea
+    size: tiny
+  story:
+    label: Текст-описание
+    type: textarea
+    size: small
+  button:
+    type: text
+    width: 1/2
+    label: Текст кнопки
+  buttonLink:
+    type: pages
+    multiple: false
+    width: 1/2
+    label: Ссылка кнопки
+

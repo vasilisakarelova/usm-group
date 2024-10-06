@@ -1,0 +1,87 @@
+title: Кейс
+tabs:
+  content:
+    label:
+      en: Content
+      ru: Контент
+    columns:
+      main:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              titleCustom:
+                type: textarea
+                size: tiny
+                label: Заголовок (если требуется форматирование)
+                default: "{{ page.title }}"
+                width: 1/2
+                buttons:
+                  - bold
+              date:
+                label: Дата
+                type: date
+                width: 1/2
+                display: DD.MM.YYYY
+              titleForGallery:
+                type: text
+                label: Заголовок (для галереи на главной странице)
+                width: 1/2
+              tag:
+                type: text
+                label: Тег на странице портволио
+                width: 1/2
+              preview:
+                type: files
+                multiple: false
+                label: Превью (на страницу портфолио)
+                requeired: true
+                width: 1/2
+              cover:
+                type: files
+                multiple: false
+                label: Обложка
+                width: 1/2
+              separatePhotoEnable:
+                type: toggle
+                label: Загрузить отдельную картинку на главную
+                width: 1/2
+                text:
+              separatePhoto:
+                type: files
+                multiple: false
+                label: Обложка в слайдер на главную
+                required: ture
+                when:
+                  separatePhotoEnable: true
+                width: 1/2
+              story:
+                type: blocks
+                label: Содержание
+                fieldsets:
+                  - text
+                  - videolink
+                  - type: gallery
+                    extends: blocks/gallery
+                    fields:
+                      galleryType:
+                        label: Тип галлереи / layout
+                        required: true
+                        type: select
+                        options:
+                          small: Маленькие в ряд с увеличением
+                          big: Большие, без возможности увеличения
+              ending:
+                type: textarea
+                label: Эпилог
+                size: tiny
+                default: 'Звучит слишком амбициозно? — Возможно. Но нас это не пугает. Мы не ставим себе легких целей. Каждый новый проект для нас — вызов, испытание наших креативных возможностей. И мы этому рады.'
+      sidebar:
+        width: 1/3
+        sections:
+          # a list of subpages
+          files:
+            type: files
+            headline: Медиа файлы
+

@@ -1,0 +1,15 @@
+title: Портфолио
+preset: pages
+icon: 🖼
+
+drafts:
+  extends: sections/projects
+  label: Project Drafts
+  info: "{{ page.date }}"
+  template:
+    - case
+
+listed:
+  extends: sections/projects
+  label: Published Projects
+  layout: cards

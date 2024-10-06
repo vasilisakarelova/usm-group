@@ -1,0 +1,19 @@
+Title: cart
+
+----
+
+Emptytext: У вас все еще нет покупок
+
+----
+
+Placeholdertype: image
+
+----
+
+Placeholderimage:
+
+- cc920390022667da5d81e46a10e5c61c.gif
+
+----
+
+Placeholdergif: 

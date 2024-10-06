@@ -1,0 +1,16 @@
+name: Медиа файл
+title: file
+
+fields:
+  caption:
+    label: Название/заголовок
+    type: text
+    size: tiny
+    width: 1/2
+  alt:
+    label: ALT – альтернативный текст, на случай, если не подгрузился файл
+    type: text
+    width: 1/2
+  externalLink:
+    label: Ссылка, если необходимо сделать картинку кликабельной
+    type: url

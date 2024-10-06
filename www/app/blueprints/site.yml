@@ -1,0 +1,72 @@
+title:
+  en: Site
+  ru: Сайт
+
+tabs:
+  content:
+    label:
+      en: Content
+      ru: Контент
+    columns:
+      main:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              menu:
+                label: Меню
+                type: pages
+                multiple: true
+              line:
+                type: line
+              info:
+                label: Info
+                type: info
+                text: Здесь информация для блока внизу меню
+              phone:
+                label: Телефон
+                type: tel
+                width: 1/2
+              email:
+                label: Эл. почта
+                type: email
+                width: 1/2
+              socialsList:
+                type: blocks
+                label: Соцсети
+                max: 1
+                fieldsets:
+                  - socials
+              address:
+                label: Адрес
+                type: text
+              line2:
+                type: line
+              footer:
+                type: blocks
+                label: Футер
+                fieldsets:
+                  text:
+                    extends: blocks/markdown
+                    icon: text
+                    fields:
+                      text:
+                        type: textarea
+                        buttons: true
+      sidebar:
+        width: 1/3
+        sections:
+          # a list of subpages
+          pages:
+            type: pages
+            headline: Разделы
+            create:
+              - about
+              - news
+              - portfolio
+              - services
+              - form
+              - cart
+  vendors: tabs/vendors
+  seo: tabs/seo

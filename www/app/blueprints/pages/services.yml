@@ -1,0 +1,10 @@
+title: Услуги
+preset: page
+pages: false
+
+fields:
+  listOfServices:
+    label: Услуги
+    type: blocks
+    fieldsets:
+      - service

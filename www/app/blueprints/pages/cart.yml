@@ -1,0 +1,35 @@
+title: Корзина
+preset: page
+pages: false
+
+options:
+  delete: false
+
+fields:
+  emptyText:
+    label: Текст для пустой корзины
+    type: text
+    size: tiny
+    required: true
+  placeholderType:
+    type: select
+    label: Тип картинки
+    width: 1/2
+    options:
+      gif: GIF (ссылка)
+      image: Статичная картинка
+  placeholderImage:
+    label: Картинка для пустой корзины
+    type: files
+    multiple: false
+    width: 1/2
+    when:
+      placeholdertype: image
+  placeholderGif:
+    label: Ссылка на гифку
+    type: textarea
+    font: monospace
+    buttons: false
+    width: 1/2
+    when:
+      placeholdertype: gif

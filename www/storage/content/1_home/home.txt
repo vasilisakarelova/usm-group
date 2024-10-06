@@ -1,0 +1,41 @@
+Title: Главная
+
+----
+
+Slider:
+
+- portfolio/okko
+- portfolio/coolcola-x-alina-zagitova
+- >
+  portfolio/toyota-motor-x-habib-nurmagomedov
+- portfolio/coolcola-creative
+- >
+  portfolio/novaja-kollekcija-odezhdy-ot-demix
+- portfolio/winline-fudmoll-depo
+- >
+  portfolio/servis-paket-ot-x5-retail-group
+
+----
+
+Button: Все услуги
+
+----
+
+Buttonlink:
+
+- services
+
+----
+
+Sponsors: [{"content":{"images":["01.png","03.png","04.png","05.png","06.png","07.png","08.png","10.png"]},"id":"390cf4e3-d560-4802-9158-b8f7bcfbf27d","isHidden":false,"type":"gallery"},{"content":{"images":["01.png","03.png","04.png","05.png","06.png","07.png","08.png","10.png"]},"id":"97a74058-b7cf-4a73-9504-2f617ab0df8a","isHidden":false,"type":"gallery"},{"content":{"images":["01.png","03.png","04.png","05.png","06.png","07.png","08.png","10.png"]},"id":"9aaef144-1d0e-4acf-b00a-fb9788bb8b81","isHidden":false,"type":"gallery"}]
+
+----
+
+Gallery:
+
+- coolcola.png
+- demix.png
+- okko.png
+- winline_brand.png
+- splat.jpeg
+- ahmad.jpeg

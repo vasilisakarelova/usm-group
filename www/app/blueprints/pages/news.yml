@@ -1,0 +1,15 @@
+title: Список новостей
+preset: pages
+icon: 🖼
+
+drafts:
+  extends: sections/projects
+  label: Project Drafts
+  info: "{{ page.date }}"
+  template:
+    - newsitem
+
+listed:
+  extends: sections/projects
+  label: Published Projects
+  layout: cards
